@@ -2,7 +2,7 @@ import { SitemapStream, streamToPromise } from 'sitemap';
 import { createWriteStream } from 'fs';
 import { Readable } from 'stream';
 
-const sitemap = new SitemapStream({ hostname: 'https://your-perfect-motorcycle.com' });
+const sitemap = new SitemapStream({ hostname: 'https://perfectmotoride.com' });
 
 const writeStream = createWriteStream('./dist/sitemap.xml');
 

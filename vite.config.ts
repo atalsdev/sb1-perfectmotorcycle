@@ -6,7 +6,7 @@ export default defineConfig({
   plugins: [
     react(),
     sitemap({
-      hostname: 'https://your-perfect-motorcycle.com',
+      hostname: 'https://perfectmotoride.com',
       exclude: ['/404'],
     }),
   ],
